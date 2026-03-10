@@ -23,6 +23,7 @@ public class IntArrayActionImpl implements IntArrayAction {
     IntStream arrayStream = IntStream.of(intArray.getArray());
     OptionalInt min = arrayStream.min();
     int minAsInt = min.getAsInt();
+
     return minAsInt;
   }
 
@@ -34,6 +35,7 @@ public class IntArrayActionImpl implements IntArrayAction {
     IntStream arrayStream = IntStream.of(intArray.getArray());
     OptionalInt max = arrayStream.max();
     int maxAsInt = max.getAsInt();
+
     return maxAsInt;
   }
 
@@ -44,6 +46,7 @@ public class IntArrayActionImpl implements IntArrayAction {
 
     IntStream arrayStream = IntStream.of(intArray.getArray());
     int sum = arrayStream.sum();
+
     return sum;
   }
 }
