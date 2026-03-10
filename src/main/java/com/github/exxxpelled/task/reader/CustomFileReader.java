@@ -1,0 +1,10 @@
+package com.github.exxxpelled.task.reader;
+
+import com.github.exxxpelled.task.exeption.IntArrayException;
+
+import java.io.IOException;
+import java.util.List;
+
+public interface CustomFileReader {
+  List<String> readFile(String filePath) throws IntArrayException;
+}
