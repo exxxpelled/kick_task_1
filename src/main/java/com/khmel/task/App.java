@@ -16,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import java.util.List;
+import java.util.OptionalInt;
 
 public class App {
   private static Logger logger = LogManager.getLogger(App.class);
@@ -48,12 +49,12 @@ public class App {
 
         IntArray intArray = factory.createIntArray(numbers);
 
-        int min = action.min(intArray);
-        int max = action.max(intArray);
-        int sum = action.sum(intArray);
+        OptionalInt min = action.min(intArray);
+        OptionalInt max = action.max(intArray);
+        OptionalInt sum = action.sum(intArray);
 
         logger.info("Line {} results - Min: {}, Max: {}, Sum: {}",
-                i + 1, min, max, sum);
+                i + 1, min.getAsInt(), max.getAsInt(), sum.getAsInt());
 
         IntArray bubbleSorted = sorter.bubbleSort(intArray);
         IntArray shellSorted = sorter.shellSort(intArray);

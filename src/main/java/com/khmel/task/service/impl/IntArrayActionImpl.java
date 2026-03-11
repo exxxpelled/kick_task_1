@@ -16,37 +16,23 @@ public class IntArrayActionImpl implements IntArrayAction {
   private static final IntArrayValidator validator = new IntArrayValidatorImpl();
 
   @Override
-  public int min(IntArray intArray) throws IntArrayException {
-    validator.validateIntArray(intArray);
+  public OptionalInt min(IntArray intArray) {
     logger.info("Function min called");
-
-    IntStream arrayStream = IntStream.of(intArray.getArray());
-    OptionalInt min = arrayStream.min();
-    int minAsInt = min.getAsInt();
-
-    return minAsInt;
+    OptionalInt min = IntStream.of(intArray.getArray()).min();
+    return min;
   }
 
   @Override
-  public int max(IntArray intArray) throws IntArrayException {
-    validator.validateIntArray(intArray);
+  public OptionalInt max(IntArray intArray) {
     logger.info("Function max called");
-
-    IntStream arrayStream = IntStream.of(intArray.getArray());
-    OptionalInt max = arrayStream.max();
-    int maxAsInt = max.getAsInt();
-
-    return maxAsInt;
+    OptionalInt max = IntStream.of(intArray.getArray()).max();
+    return max;
   }
 
   @Override
-  public int sum(IntArray intArray) throws IntArrayException {
-    validator.validateIntArray(intArray);
+  public OptionalInt sum(IntArray intArray) {
     logger.info("Function sum called");
-
-    IntStream arrayStream = IntStream.of(intArray.getArray());
-    int sum = arrayStream.sum();
-
-    return sum;
+    int sum = IntStream.of(intArray.getArray()).sum();
+    return OptionalInt.of(sum);
   }
 }
