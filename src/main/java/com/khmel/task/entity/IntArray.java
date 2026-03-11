@@ -10,11 +10,6 @@ public class IntArray {
   private static Logger logger = LogManager.getLogger(IntArray.class);
   private int[] array;
 
-  public IntArray(final int length) {
-    this.array = new int[length];
-    logger.info("IntArray created by size. Length: {}", length);
-  }
-
   public IntArray(final int[] array) {
     this.array = array.clone();
     logger.info("IntArray created by other array. Length: {}", array.length);
