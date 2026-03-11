@@ -1,7 +1,7 @@
 package com.github.exxxpelled.task.service;
 
 import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exeption.IntArrayException;
+import com.github.exxxpelled.task.exception.IntArrayException;
 
 public interface IntArraySort {
   IntArray bubbleSort(IntArray intArray) throws IntArrayException;

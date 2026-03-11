@@ -1,8 +1,7 @@
 package com.github.exxxpelled.task.reader;
 
-import com.github.exxxpelled.task.exeption.IntArrayException;
+import com.github.exxxpelled.task.exception.IntArrayException;
 
-import java.io.IOException;
 import java.util.List;
 
 public interface CustomFileReader {

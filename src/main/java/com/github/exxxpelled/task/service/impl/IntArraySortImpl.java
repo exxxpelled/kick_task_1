@@ -1,7 +1,7 @@
 package com.github.exxxpelled.task.service.impl;
 
 import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exeption.IntArrayException;
+import com.github.exxxpelled.task.exception.IntArrayException;
 import com.github.exxxpelled.task.service.IntArraySort;
 import com.github.exxxpelled.task.validator.IntArrayValidator;
 import com.github.exxxpelled.task.validator.impl.IntArrayValidatorImpl;

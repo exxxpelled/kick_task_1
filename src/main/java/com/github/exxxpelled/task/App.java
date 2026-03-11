@@ -1,7 +1,7 @@
 package com.github.exxxpelled.task;
 
 import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exeption.IntArrayException;
+import com.github.exxxpelled.task.exception.IntArrayException;
 import com.github.exxxpelled.task.factory.IntArrayFactory;
 import com.github.exxxpelled.task.factory.impl.IntArrayFactoryImpl;
 import com.github.exxxpelled.task.parser.CustomIntParser;
@@ -15,7 +15,6 @@ import com.github.exxxpelled.task.service.impl.IntArraySortImpl;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import java.io.IOException;
 import java.util.List;
 
 public class App {

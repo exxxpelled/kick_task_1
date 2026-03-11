@@ -1,7 +1,7 @@
 package com.github.exxxpelled.task.factory.impl;
 
 import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exeption.IntArrayException;
+import com.github.exxxpelled.task.exception.IntArrayException;
 import com.github.exxxpelled.task.factory.IntArrayFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
