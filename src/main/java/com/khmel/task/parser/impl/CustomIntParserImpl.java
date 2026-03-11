@@ -1,7 +1,7 @@
-package com.github.exxxpelled.task.parser.impl;
+package com.khmel.task.parser.impl;
 
-import com.github.exxxpelled.task.exception.IntArrayException;
-import com.github.exxxpelled.task.parser.CustomIntParser;
+import com.khmel.task.exception.IntArrayException;
+import com.khmel.task.parser.CustomIntParser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package com.github.exxxpelled.task.exception;
+package com.khmel.task.exception;
 
 public class IntArrayException extends Exception{
   public IntArrayException(String message) {

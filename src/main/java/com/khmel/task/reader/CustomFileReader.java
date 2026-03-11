@@ -1,6 +1,6 @@
-package com.github.exxxpelled.task.reader;
+package com.khmel.task.reader;
 
-import com.github.exxxpelled.task.exception.IntArrayException;
+import com.khmel.task.exception.IntArrayException;
 
 import java.util.List;
 

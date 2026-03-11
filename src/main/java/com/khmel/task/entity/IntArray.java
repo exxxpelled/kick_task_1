@@ -1,6 +1,6 @@
-package com.github.exxxpelled.task.entity;
+package com.khmel.task.entity;
 
-import com.github.exxxpelled.task.exception.IntArrayException;
+import com.khmel.task.exception.IntArrayException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,10 +1,10 @@
-package com.github.exxxpelled.task.service.impl;
+package com.khmel.task.service.impl;
 
-import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exception.IntArrayException;
-import com.github.exxxpelled.task.service.IntArraySort;
-import com.github.exxxpelled.task.validator.IntArrayValidator;
-import com.github.exxxpelled.task.validator.impl.IntArrayValidatorImpl;
+import com.khmel.task.entity.IntArray;
+import com.khmel.task.exception.IntArrayException;
+import com.khmel.task.service.IntArraySort;
+import com.khmel.task.validator.IntArrayValidator;
+import com.khmel.task.validator.impl.IntArrayValidatorImpl;
 
 public class IntArraySortImpl implements IntArraySort {
   private static IntArrayValidator validator = new IntArrayValidatorImpl();

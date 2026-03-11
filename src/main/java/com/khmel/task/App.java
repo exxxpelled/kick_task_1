@@ -1,17 +1,17 @@
-package com.github.exxxpelled.task;
+package com.khmel.task;
 
-import com.github.exxxpelled.task.entity.IntArray;
-import com.github.exxxpelled.task.exception.IntArrayException;
-import com.github.exxxpelled.task.factory.IntArrayFactory;
-import com.github.exxxpelled.task.factory.impl.IntArrayFactoryImpl;
-import com.github.exxxpelled.task.parser.CustomIntParser;
-import com.github.exxxpelled.task.parser.impl.CustomIntParserImpl;
-import com.github.exxxpelled.task.reader.CustomFileReader;
-import com.github.exxxpelled.task.reader.impl.CustomFileReaderImpl;
-import com.github.exxxpelled.task.service.IntArrayAction;
-import com.github.exxxpelled.task.service.IntArraySort;
-import com.github.exxxpelled.task.service.impl.IntArrayActionImpl;
-import com.github.exxxpelled.task.service.impl.IntArraySortImpl;
+import com.khmel.task.entity.IntArray;
+import com.khmel.task.exception.IntArrayException;
+import com.khmel.task.factory.IntArrayFactory;
+import com.khmel.task.factory.impl.IntArrayFactoryImpl;
+import com.khmel.task.parser.CustomIntParser;
+import com.khmel.task.parser.impl.CustomIntParserImpl;
+import com.khmel.task.reader.CustomFileReader;
+import com.khmel.task.reader.impl.CustomFileReaderImpl;
+import com.khmel.task.service.IntArrayAction;
+import com.khmel.task.service.IntArraySort;
+import com.khmel.task.service.impl.IntArrayActionImpl;
+import com.khmel.task.service.impl.IntArraySortImpl;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
