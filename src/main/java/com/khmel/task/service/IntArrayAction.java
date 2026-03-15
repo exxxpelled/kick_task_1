@@ -2,6 +2,7 @@ package com.khmel.task.service;
 
 import com.khmel.task.entity.IntArray;
 
+import java.util.OptionalDouble;
 import java.util.OptionalInt;
 
 public interface IntArrayAction {
@@ -10,4 +11,6 @@ public interface IntArrayAction {
   OptionalInt max(IntArray intArray);
 
   OptionalInt sum(IntArray intArray);
+
+  OptionalDouble average(IntArray intArray);
 }
