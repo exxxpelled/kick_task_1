@@ -1,4 +1,4 @@
-package com.khmel.task.generator;
+package com.khmel.task.util;
 
 public final class IdGenerator {
   private static int id = 0;

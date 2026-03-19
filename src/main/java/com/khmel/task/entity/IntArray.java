@@ -1,7 +1,7 @@
 package com.khmel.task.entity;
 
 import com.khmel.task.exception.IntArrayException;
-import com.khmel.task.generator.IdGenerator;
+import com.khmel.task.util.IdGenerator;
 import com.khmel.task.observer.Observer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,7 +9,6 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class IntArray {
   private static final Logger logger = LogManager.getLogger(IntArray.class);
@@ -79,7 +78,7 @@ public class IntArray {
   @Override
   public boolean equals(Object o) {
     if (!(o instanceof IntArray other)) return false;
-    return id == other.getId() && Objects.deepEquals(array, other.getArray()) && Objects.equals(observers, other.observers);
+    return Arrays.equals(array, other.getArray());
   }
 
   @Override

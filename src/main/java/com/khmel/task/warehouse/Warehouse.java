@@ -38,11 +38,4 @@ public class Warehouse {
     logger.info("Removed statistics for IntArray with id: {}", id);
   }
 
-  public boolean containsKey(int id) {
-    return arrayDataMap.containsKey(id);
-  }
-
-  public Map<Integer, IntArrayStatistics> getAll() {
-    return new HashMap<>(arrayDataMap);
-  }
 }

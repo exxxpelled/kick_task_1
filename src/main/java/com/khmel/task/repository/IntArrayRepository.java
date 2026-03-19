@@ -28,8 +28,8 @@ public class IntArrayRepository {
   }
 
   public void add(IntArray intArray) {
-    intArray.attach(observer);
     intArrays.add(intArray);
+    intArray.attach(observer);
     observer.update(intArray);
     logger.info("Added array id={} to repository", intArray.getId());
   }
