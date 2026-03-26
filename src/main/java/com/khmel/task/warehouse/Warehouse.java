@@ -1,4 +1,3 @@
-// task/warehouse/Warehouse.java
 package com.khmel.task.warehouse;
 
 import com.khmel.task.entity.IntArrayStatistics;
