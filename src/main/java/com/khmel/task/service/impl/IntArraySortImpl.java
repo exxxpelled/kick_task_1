@@ -11,8 +11,6 @@ public class IntArraySortImpl implements IntArraySort {
 
   @Override
   public IntArray bubbleSort(IntArray intArray) throws IntArrayException {
-    validator.validateIntArray(intArray);
-
     int[] sortedArray = intArray.getArray();
     int n = sortedArray.length;
 
@@ -38,8 +36,6 @@ public class IntArraySortImpl implements IntArraySort {
 
   @Override
   public IntArray shellSort(IntArray intArray) throws IntArrayException {
-    validator.validateIntArray(intArray);
-
     int[] sortedArray = intArray.getArray();
     int n = sortedArray.length;
 
